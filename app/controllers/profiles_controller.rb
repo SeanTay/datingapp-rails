@@ -1,13 +1,10 @@
 class ProfilesController < ApplicationController
-
+before_action :set_profile
   # GET Profiles
   def index
-    respond_to do |format|
-      format.html
-      format.json {render json: Profile.all}
-    end
-
     @profiles = Profile.all
+
+    render json: @profiles
   end
 
 
@@ -35,6 +32,10 @@ class ProfilesController < ApplicationController
   end
 
   private
+  def set_profile
+    @profile = Profile.find(params[:id])
+  end
+
   def profile_params
     params.require(:profile).permit(:name, :gender, :age, :location, :work, :school, :description, :profile_pic_url)
   end
