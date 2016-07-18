@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160717194644) do
+ActiveRecord::Schema.define(version: 20160718133823) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,4 +28,13 @@ ActiveRecord::Schema.define(version: 20160717194644) do
     t.datetime "updated_at",      null: false
   end
 
+  create_table "stories", force: :cascade do |t|
+    t.string   "content"
+    t.integer  "profile_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["profile_id"], name: "index_stories_on_profile_id", using: :btree
+  end
+
+  add_foreign_key "stories", "profiles"
 end
