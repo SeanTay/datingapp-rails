@@ -1,5 +1,7 @@
 class ProfilesController < ApplicationController
-before_action :set_profile
+before_action :set_profile, only: [:show, :update, :destroy]
+
+
   # GET Profiles
   def index
     @profiles = Profile.all
