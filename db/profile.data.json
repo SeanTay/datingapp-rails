@@ -1,18 +1,238 @@
-[{"name": "Sean Tay" ,
-"gender": "Male",
-"age": 30,
-"location": "Washington, DC" ,
-"work": "General Assembly",
-"school": "North Carolina State University",
-"description": "Web Developer",
-"profile_pic_url": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAeuAAAAJDk3MWE0MDQwLWM0MjMtNDJhOC05OTJlLWE4YzNmOTQyZDM4MQ.jpg"
+[{
+		"name": "Adina Pollack",
+		"gender": "Female",
+		"age": 76,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "James Madison University",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAfJAAAAJDQwY2NmYjZiLWI1MmItNDkyMS04YTEzLWQ4NzJlMDdjYzhmOQ.jpg"
+	}, {
+		"name": "Gandy Young",
+		"gender": "Male",
+		"age": 35,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "George Washington University",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAH-AAAAJGViY2I1ZGUzLWNhMjktNDA1MC1iNGQwLTk4YmU4MTMxNDhjMg.jpg"
+	}, {
+		"name": "Anh Truong",
+		"gender": "Male",
+		"age": 83,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "Christopher Newport University",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAjFAAAAJDJmM2NiNGQ4LWZjOWYtNDQ5Yi05MGM0LTAwOTc5NTllMDA5Mg.jpg"
+	}, {
+		"name": "Arthur Adams",
+		"gender": "Male",
+		"age": 25,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "University of Tennessee-Knoxville",
+		"description": "Web Developer",
+		"profile_pic_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/33467_1600778509726_7548942_n.jpg?oh=a68e7163168bf751d0408e511a4ba79d&oe=582D42F5"
+	}, {
+		"name": "Christopher Gardner",
+		"gender": "Male",
+		"age": 65,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "General Assembly",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAlDAAAAJDYxYzg4M2Y2LWM5ZTMtNDdjZC04YjlmLTUwM2M3YTRlYzM0Ng.jpg"
+	}, {
+		"name": "David Corderman",
+		"gender": "Male",
+		"age": 70,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "St. Mary's College of Maryland",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/p/3/000/098/129/1ed551b.jpg"
+	}, {
+		"name": "James Graham",
+		"gender": "Male",
+		"age": 94,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "USC Marshall School of Business",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/p/6/005/0a1/111/202175c.jpg"
+	}, {
+		"name": "James Hughes",
+		"gender": "Male",
+		"age": 87,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "General Assembly",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAkZAAAAJDExYWM4ZTgyLTM0YTUtNGNmMy05ZDcxLTM1YTJjNzBhZDM1NA.jpg"
+	}, {
+		"name": "Denzel Adams",
+		"gender": "Male",
+		"age": 75,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "General Assembly",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAgEAAAAJDdiMzU2YmQyLWE4YTYtNDQ5OS05OTgwLWNiMjdkYTc0OTc4MQ.jpg"
+	}, {
+		"name": "Joseph Calvillo",
+		"gender": "Male",
+		"age": 66,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "General Assembly",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAh7AAAAJDY5N2M5MjgwLTYzOGYtNDczOS1iZmM2LTJkOThmZjk1YWIzMw.jpg"
+	}, {
+		"name": "Julia Najafi",
+		"gender": "Female",
+		"age": 68,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "Georgetown University",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAifAAAAJDQ3ZTVkNWQyLTE0NDctNGM3OC1hYmM4LTFlNzNhZjk0ZGI5Yw.jpg"
+	}, {
+		"name": "Julia Schultz",
+		"gender": "Female",
+		"age": 70,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "American University",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAWKAAAAJGU5MWZkMjdhLWRiM2UtNDBjMy05NzU1LWI3Mjg5YmNiNGJjMw.jpg"
+	},
+
+	{
+		"name": "Kevin Golden",
+		"gender": "Male",
+		"age": 22,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "Norhtern Illinois University",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/p/6/000/22d/1e4/30578c7.jpg"
+	}, {
+		"name": "Kristin Pasive",
+		"gender": "Female",
+		"age": 95,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "De La Salle University",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAamAAAAJGE2YTZkNjQyLTY0ZGMtNDU5OC1iMmE5LTUyNDI2ZmIxMzZjZA.jpg"
+	}, {
+		"name": "Mara Sanders",
+		"gender": "Female",
+		"age": 23,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "General Assembly",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAhvAAAAJDdmMGI5YTFkLTlkNDYtNGQ1Yy1iNGI1LTY2YTcyZGVlM2U2Nw.jpg"
+	}, {
+		"name": "Matthew Scott",
+		"gender": "Male",
+		"age": 84,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "General Assembly",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAeqAAAAJGVkNzlhNTI2LTg5ZGMtNDExYS1iYzFhLWNlMjQ4ZmZmZDY2OA.jpg"
+	}, {
+		"name": "Michael Holzheimer",
+		"gender": "Male",
+		"age": 29,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "University of Maryland",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAKlAAAAJDcyYTY1YTRmLTBhNDQtNGFhYS1hMWNkLWI3MWMwZDAxNWNiMQ.jpg"
+	}, {
+		"name": "Michael Parks",
+		"gender": "Male",
+		"age": 88,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "Howard University",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/05f/056/3188bdb.jpg"
+	}, {
+		"name": "Rebekah Milford",
+		"gender": "Female",
+		"age": 96,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "Cleveland State University",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/p/6/005/08f/2ab/1bd63b9.jpg"
+	}, {
+		"name": "Tyson Green",
+		"gender": "Male",
+		"age": 99,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "",
+		"description": "Web Developer",
+		"profile_pic_url": "http://www.educationpost.com.hk/sites/default/files/images/logo/institution/1ga_logo.jpg"
+	}, {
+		"name": "Jesse Shawl",
+		"gender": "Male",
+		"age": 77,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "University of Maryland",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAIIAAAAJDhlZjE2MmNhLTlhOWItNGFhYS1iZTM5LTk0ZDdhNGZlMTgzYw.jpg"
+	}, {
+		"name": "Nick Olds",
+		"gender": "Male",
+		"age": 89,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "University of Denver",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAjjAAAAJGQwNTQzMzlhLWM2ZDctNDIwNy05ODk3LTYyY2JmNzFkM2M4ZQ.jpg"
+	}, {
+		"name": "Adrian Maseda",
+		"gender": "Male",
+		"age": 82,
+		"location": "Washington, DC",
+		"work": "General Assembly",
+		"school": "Georgetown University",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAJPAAAAJGI2NjIxYTBmLTYzZDctNDhhMC05ODFhLTZhMGUzZjgwZTMxZQ.jpg"
+	}, {
+		"name": "Robin Thomas",
+		"gender": "Male",
+		"age": 83,
+		"location": "Minneapolis, MN",
+		"work": "General Assembly",
+		"school": "Standford University",
+		"description": "Web Developer",
+		"profile_pic_url": "https://media.licdn.com/media/AAEAAQAAAAAAAAjXAAAAJGZmNTY3YTkzLWNjNjktNDhlNy1iNmEzLTRkOTc3YTFkNWVmMg.jpg"
+	}, {
+	"name": "Selena Gomez",
+	"gender": "Female",
+	"age": 23,
+	"location": "Los Angeles, CA",
+	"work": "Interscope Records",
+	"school": "University of Disney",
+	"description": "Triple Threat",
+	"profile_pic_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Selena_Gomez_-_Walmart_Soundcheck_Concert.jpg"
 }, {
-"name": "Taylor Swift",
-"gender": "Female",
-"age": 26,
-"location": "New York",
-"work": "RCA",
-"school": "School of Music",
-"description": "Singer",
-"profile_pic_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taylor_Swift_May_2015_cropped_and_retouched.jpg"
-}]
+	"name": "Margot Robbie",
+	"gender": "Female",
+	"age": 26,
+	"location": "Australia",
+	"work": "Warner Bros. Pictures",
+	"school": "University of Australia",
+	"description": "Actor",
+	"profile_pic_url": "http://ia.media-imdb.com/images/M/MV5BMTgxNDcwMzU2Nl5BMl5BanBnXkFtZTcwNDc4NzkzOQ@@._V1_SY999_SX750_AL_.jpg"
+}
+]

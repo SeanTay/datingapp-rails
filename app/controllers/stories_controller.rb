@@ -2,12 +2,14 @@ class StoriesController < ApplicationController
 
   # GET /stories
   def index
-    @stories = Story.all
+    @profile = Profile.find(params[:profile_id])
+    @stories = @profile.stories
 
     render json: @stories
   end
 
   def show
+    @story = Story.find(params[:id])
     render json: @story
   end
 
@@ -22,6 +24,7 @@ class StoriesController < ApplicationController
   end
 
   def update
+    @story = Story.find(params[:id])
     if @story.update(story_params)
       render json: @story
     else
