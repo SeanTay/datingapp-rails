@@ -234,5 +234,40 @@
 	"school": "University of Australia",
 	"description": "Actor",
 	"profile_pic_url": "http://ia.media-imdb.com/images/M/MV5BMTgxNDcwMzU2Nl5BMl5BanBnXkFtZTcwNDc4NzkzOQ@@._V1_SY999_SX750_AL_.jpg"
-}
-]
+},{
+ 	"name": "Lindsay Lohan",
+ 	"gender": "Female",
+ 	"age": 30,
+ 	"location": "Los Angeles, CA",
+ 	"work": "Unemployed",
+ 	"school": "University of the Parent Trap",
+ 	"description": "Wildcard/Child Actor",
+ 	"profile_pic_url": "http://ia.media-imdb.com/images/M/MV5BMTkzMzI0MjQ3M15BMl5BanBnXkFtZTYwMzYyNzIz._V1_.jpg"
+ }, {
+ 	"name": "Jennifer Lawrence",
+ 	"gender": "Female",
+ 	"age": 25,
+ 	"location": "New York City, NY",
+ 	"work": "20th Century Fox",
+ 	"school": "University of Serious Actors",
+ 	"description": "America's Sweetheart/Actor",
+ 	"profile_pic_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Jennifer_Lawrence_at_the_83rd_Academy_Awards_crop.jpg/800px-Jennifer_Lawrence_at_the_83rd_Academy_Awards_crop.jpg"
+ }, {
+ 	"name": "Anna Kendrick",
+ 	"gender": "Female",
+ 	"age": 30,
+ 	"location": "Los Angeles",
+ 	"work": "Brownstone Productions",
+ 	"school": "Quirky College",
+ 	"description": "Girl Next Door/Actor",
+ 	"profile_pic_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Anna_Kendrick_March_22%2C_2014_%28cropped%29.jpg/800px-Anna_Kendrick_March_22%2C_2014_%28cropped%29.jpg"
+ }, {
+ 	"name": "Olivia Munn",
+ 	"gender": "Female",
+ 	"age": 36,
+ 	"location": "New York City",
+ 	"work": "20th Century Fox",
+ 	"school": "University of G4",
+ 	"description": "Nerd/Actor",
+ 	"profile_pic_url": "http://ia.media-imdb.com/images/M/MV5BMjE0MTM3MTgwMF5BMl5BanBnXkFtZTcwNTA3MjMyMw@@._V1_.jpg"
+ }]
