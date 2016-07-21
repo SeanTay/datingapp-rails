@@ -9,7 +9,6 @@ before_action :set_profile, only: [:show, :update, :destroy]
     render json: @profiles
   end
 
-
   # GET /Profiles/1
   def show
     render json: @profile
@@ -17,8 +16,14 @@ before_action :set_profile, only: [:show, :update, :destroy]
 
   # POST /profiles
   def create
-    @profile = Profile.create(profile_params)
-    render json: @profile, status: :ok
+    @profile = Profile.new(profile_params)
+
+    if @profile.save
+      render json: @profile, status: :created
+    else
+      render json: @profile.errors, status: :unprocessable_entity
+    end
+
   end
 
   # PATCH/PUT /profiles/1

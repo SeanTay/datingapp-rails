@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+#devise
+gem 'devise'
+
+gem 'devise_token_auth'
+
 #postgresql
 gem 'pg', '~>0.15'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
