@@ -12,7 +12,8 @@ gem 'rails', '~> 5.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'rack-cors'
 
-gem 'sqlite3'
+gem 'sqlite3' # NHO: not necessary since we are using Postgres as our DB
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
