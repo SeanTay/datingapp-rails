@@ -1,5 +1,5 @@
 class StoriesController < ApplicationController
-
+  # NHO: can clean this up a little by setting a before_action to find a profile for wherever necessary
   # GET /stories
   def index
     @profile = Profile.find(params[:profile_id])
@@ -14,7 +14,7 @@ class StoriesController < ApplicationController
   end
 
   def create
-    
+    # NHO: how is a new story associated with a profile?
     @story = Story.new(story_params)
 
     if @story.save
